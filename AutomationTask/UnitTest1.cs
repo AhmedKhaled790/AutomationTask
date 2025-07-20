@@ -234,8 +234,5 @@ namespace AutomationTask
             Console.WriteLine("Bottom Frame: " + driver.FindElement(By.TagName("body")).Text);
             driver.Quit();
         }
-
     }
-
-
 }
